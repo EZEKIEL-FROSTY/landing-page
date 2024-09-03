@@ -7,7 +7,7 @@ body{
     flex-direction: column;
     background-color: #1F2937;
     padding: 64px;
-    gap: 32px;
+    gap: 64px;
 }
 
 .header{
@@ -50,7 +50,7 @@ a {
     display:flex;
     flex-direction: column;
     width: 500px;
-    gap: 16px;
+    gap: 32px;
     justify-content: center;
 }
 
@@ -75,6 +75,62 @@ button {
 }
 
 img{
-    width: 300px;
-    height:auto;
+    width: auto;
+    height:250px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.random-information{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.illusion-subtext{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+
+}
+
+
+.illusion-subtext .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    border-radius:1cm;
+    margin-bottom: 72px
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 50px 150px;
+    gap: 32px;
+}
+
+.quote-words {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quoted {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 600;
 }
