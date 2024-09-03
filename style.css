@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 64px;
+    padding: 64px 300px;
     gap: 64px;
 }
 
