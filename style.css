@@ -68,7 +68,8 @@ a {
 button {
     border-radius: 1000px;
     width: 100px;
-    height: auto;
+    height: 50px;
+    flex-shrink: 0;
     padding: 8px 16px;
     font-size: 16px;
     background-color: #3882F6;
@@ -133,4 +134,32 @@ img{
     margin-left: auto;
     font-size: 24px;
     font-weight: 600;
+}
+
+.prompt {
+    display: flex;
+    flex-grow:0;
+    margin: 100px 100px;
+    padding: 32px;
+    background-color: #3882F6;;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call2{
+    font-size: 12px;
 }
