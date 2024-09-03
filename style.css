@@ -163,3 +163,14 @@ img{
 .call2{
     font-size: 12px;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 12px;
+    flex-flow: column-reverse;
+    padding: 24px;
+}
