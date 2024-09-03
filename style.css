@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 64px 300px;
+    padding: 64px 100px;
     gap: 64px;
 }
 
@@ -17,6 +17,7 @@ body{
     align-items: center;
     color: white;
     background-color: #1F2937;
+    flex: auto
 }
 
 .logo{
@@ -44,6 +45,7 @@ a {
     background-color: #1F2937;
     color: white;
     justify-content: space-between;
+    flex: auto;
 }
 
 .information{
